@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="counatiner">
+            <header class="header">
+                <h1>Учет сотрудников в компании Wepro</h1>
+                <span>Общее число сотрудников: <i class="Lenght"></i></span>
+                <span>Премию получат: <i class="lenght_prem">1</i></span>
+            </header>
+            <main class="main">
+                <div class="main_top" id="">
+                    <div class="main_top_block_1">
+                        <input class="inp_search" type="text" placeholder="Найти сотрудника">
+                    </div>
+                    <div class="main_top_block_2">
+                        <button class="all_user">Все сотрудники</button>
+                        <button class="povish">На повышение</button>
+                        <button class="bolshe">З/П больше 1000$</button>
+                        
+                    </div>
+                </div>
+
+                <div class="main_block">
+                    <div class="list"></div>
+                </div>
+                <footer class="footer">
+                    <div class="footer_top">
+                        <h1>Добавте нового сотрудника</h1>
+                    </div>
+                    <div class="footer_bottom">
+                        <form name="user">
+                            <input class="inp" type="text" placeholder="как его зовут?" name="Name">
+                            <input class="inp" type="text" placeholder="З/П В $" name="Balance">
+                            <button class="btn">Добавить</button>
+                        </form>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

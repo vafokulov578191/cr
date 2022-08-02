@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(213, 190, 190);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.counatiner {
+    max-width: 1920px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.header {
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(32, 32, 168);
+    padding: 15px;
+    color: white;
+    border-radius: 6px;
+}
+
+.main {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.main_top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 32, 168);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main_top_block_1 input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.main_top_block_2 button {
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.main_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.item_block {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.item_right {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_right_right {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: rgb(32, 32, 168);
+    border-radius: 6px;
+    gap: 10px;
+    color: white;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+}
+
+.inp {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+}
+
+.list {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+    color: black;
+}
+
+.item_counatiner {
+    display: flex;
+    flex-direction: column;
+}
